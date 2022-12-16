@@ -17,3 +17,5 @@ else:
     median = list1[len(list1)//2]
 print(median)
 
+------------------------------
+
