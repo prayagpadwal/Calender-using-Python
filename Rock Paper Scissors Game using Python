@@ -14,3 +14,10 @@ elif player1 == player2:
     print("Tie")
 else:
     print("Player 1 Won")
+
+
+    
+#  OUTPUT  #    
+# Select Rock, Paper, or Scissor :Paper
+# Player 2 selected:  scissor
+# Player 2 Won
