@@ -11,5 +11,5 @@ profile_picture = scraper.find("img", {"alt": "Avatar"})["src"]
 print(profile_picture)
 
 # Output:
-https://avatars.githubusercontent.com/u/57987909?v=4
+# https://avatars.githubusercontent.com/u/57987909?v=4
 #
