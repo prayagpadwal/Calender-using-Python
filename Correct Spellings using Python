@@ -12,7 +12,7 @@ else:
     print("Correct Spelling is ", correct_word)
 
 # OutPut
-#Enter a Word : intellignt
-Correct Spelling is  intelligent
+# Enter a Word : intellignt
+# Correct Spelling is  intelligent
 
 
