@@ -10,3 +10,5 @@ if word in corrector:
 else:
     correct_word = corrector.correction(word)
     print("Correct Spelling is ", correct_word)
+
+# OutPut
