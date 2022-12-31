@@ -6,3 +6,5 @@ url = "https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_
 with urllib.request.urlopen(url) as i:
     html = i.read()
     
+data = pd.read_html(html)[0]
+print(data.head())
