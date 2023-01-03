@@ -7,7 +7,7 @@ reader = PyPDF2.PdfFileReader(pdf)
 page = reader.getPage(0)
 print(page.extractText())
 
- In the fourth line of the above code, 
- the getPage() method will help you specify 
- the page number you want to extract text from.
+# In the fourth line of the above code, 
+# the getPage() method will help you specify 
+# the page number you want to extract text from.
 
