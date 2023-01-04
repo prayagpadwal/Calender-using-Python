@@ -1,4 +1,4 @@
-#Concept of Slicing in python
+# Concept of Slicing in python
 
 def reverse_string(string):
     return string[::-1]
