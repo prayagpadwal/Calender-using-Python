@@ -1,6 +1,6 @@
 ### Find the middle of a given linked list
 # Taken from GeeksforGeeks: 
-# https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
+## https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
 
 # Given a singly linked list, find the middle of the linked list. 
 # For example:
