@@ -15,3 +15,10 @@ East Ericfurt, CO 88091
 Building job station sometimes what language money. Able air really it study suffer health. Body why approach difference case notice choose.
 
 The Faker().profile() method returns fake data about job profiles containing 13 columns. So below is how you can create a dummy dataset using Python:
+
+from faker import Faker
+import pandas as pd
+fake = Faker()
+data = [fake.profile() for i in range(50)]
+data = pd.DataFrame(data)
+print(data.head())
