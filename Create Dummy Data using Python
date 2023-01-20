@@ -7,3 +7,9 @@ fake = Faker()
 print(fake.name())
 print(fake.address())
 print(fake.text())
+
+# OUTPUT #
+Sean Obrien
+2606 Mackenzie Tunnel Apt. 215
+East Ericfurt, CO 88091
+Building job station sometimes what language money. Able air really it study suffer health. Body why approach difference case notice choose.
