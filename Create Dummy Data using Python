@@ -9,12 +9,12 @@ print(fake.address())
 print(fake.text())
 
 # OUTPUT #
-Sean Obrien
-2606 Mackenzie Tunnel Apt. 215
-East Ericfurt, CO 88091
-Building job station sometimes what language money. Able air really it study suffer health. Body why approach difference case notice choose.
+#Sean Obrien
+#2606 Mackenzie Tunnel Apt. 215
+#East Ericfurt, CO 88091
+#Building job station sometimes what language money. Able air really it study suffer health. Body why approach difference case notice choose.
 
-The Faker().profile() method returns fake data about job profiles containing 13 columns. So below is how you can create a dummy dataset using Python:
+#The Faker().profile() method returns fake data about job profiles containing 13 columns. So below is how you can create a dummy dataset using Python:
 
 from faker import Faker
 import pandas as pd
@@ -23,11 +23,12 @@ data = [fake.profile() for i in range(50)]
 data = pd.DataFrame(data)
 print(data.head())
 
-                                     job  ...   birthdate
-0  Engineer, control and instrumentation  ...  1949-06-13
-1                     Editor, film/video  ...  1959-07-23
-2                           Chiropractor  ...  1927-12-12
-3                           Nurse, adult  ...  1996-11-02
-4                      Personnel officer  ...  1953-08-19
-
-[5 rows x 13 columns]
+# OUTPUT #
+#                                     job  ...   birthdate
+#0  Engineer, control and instrumentation  ...  1949-06-13
+#1                     Editor, film/video  ...  1959-07-23
+#2                           Chiropractor  ...  1927-12-12
+#3                           Nurse, adult  ...  1996-11-02
+#4                      Personnel officer  ...  1953-08-19
+#
+#[5 rows x 13 columns]
