@@ -8,6 +8,6 @@ def find_duplicates(x):
             if x[i] == x[a] and x[i] not in duplicates:
                 duplicates.append(x[i])
     return duplicates
-names = ["Aman", "Akanksha", "Divyansha", "Devyansh", 
-         "Aman", "Diksha", "Akanksha"]
+names = ["Prayag", "Akanksha", "Divyansha", "Devyansh", 
+         "Prayag", "Diksha", "Akanksha"]
 print(find_duplicates(names))
