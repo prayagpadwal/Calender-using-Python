@@ -13,3 +13,6 @@ if any(x in question[0] for x in question_words):
     print("This is a question!")
 else:
     print("This is not a question!")
+
+Input a sentence: Do you have any feelings for me?
+This is a question!
