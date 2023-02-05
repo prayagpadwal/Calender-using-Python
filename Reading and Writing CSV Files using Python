@@ -23,6 +23,8 @@ import pandas as pd
 data = pd.read_csv("age_data.csv")
 print(data.head())
 
+# OUTPUT# 
+
 #       Name  Age
 #0      Aman   23
 #1    Diksha   21
