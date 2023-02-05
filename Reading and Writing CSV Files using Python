@@ -16,3 +16,9 @@ print(data.head())
 #2  Akanksha   25
 #3     Sajid   23
 #4    Akshit   22
+
+
+# reading a csv file
+import pandas as pd
+data = pd.read_csv("age_data.csv")
+print(data.head())
