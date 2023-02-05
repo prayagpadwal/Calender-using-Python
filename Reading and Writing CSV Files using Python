@@ -7,3 +7,11 @@ data = {"Name": ["Aman", "Diksha", "Akanksha", "Sajid", "Akshit"],
 data = pd.DataFrame(data)
 data.to_csv("age_data.csv", index=False)
 print(data.head())
+
+
+       Name  Age
+0      Aman   23
+1    Diksha   21
+2  Akanksha   25
+3     Sajid   23
+4    Akshit   22
