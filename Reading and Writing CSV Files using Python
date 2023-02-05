@@ -8,6 +8,7 @@ data = pd.DataFrame(data)
 data.to_csv("age_data.csv", index=False)
 print(data.head())
 
+# OUTPUT #
 
 #       Name  Age
 #0      Aman   23
