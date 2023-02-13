@@ -15,3 +15,5 @@ print(least_common_multiple(10, 12))
 
 
 # OUTPUT #
+
+# 60
