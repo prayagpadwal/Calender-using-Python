@@ -12,3 +12,6 @@ def least_common_multiple(a, b):
     return lcm
 
 print(least_common_multiple(10, 12))
+
+
+# 
