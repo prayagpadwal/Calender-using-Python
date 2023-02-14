@@ -21,3 +21,15 @@ print(data)
 data["% Change in Demand"] = data["Demand"].pct_change()
 data["% Change in Price"] = data["Price"].pct_change()
 print(data)
+
+# OUTPUT #|
+
+   Demand  Price  % Change in Demand  % Change in Price
+0      20   2000                 NaN                NaN
+1      30   1800            0.500000          -0.100000
+2      31   1850            0.033333           0.027778
+3      33   1700            0.064516          -0.081081
+4      30   1800           -0.090909           0.058824
+5      33   1700            0.100000          -0.055556
+6      35   1600            0.060606          -0.058824
+
