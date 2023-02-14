@@ -6,3 +6,11 @@ import pandas as pd
 data = pd.DataFrame({"Demand": [20, 30, 31, 33, 30, 33, 35], 
                      "Price": [2000, 1800, 1850, 1700, 1800, 1700, 1600]})
 print(data)
+
+  Demand  Price
+0      20   2000
+2      31   1850
+3      33   1700
+4      30   1800
+5      33   1700
+6      35   1600
