@@ -16,3 +16,8 @@ print(data)
 4      30   1800
 5      33   1700
 6      35   1600
+
+
+data["% Change in Demand"] = data["Demand"].pct_change()
+data["% Change in Price"] = data["Price"].pct_change()
+print(data)
