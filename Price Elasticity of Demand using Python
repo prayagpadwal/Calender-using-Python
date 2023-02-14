@@ -36,3 +36,13 @@ print(data)
 
 data["Price Elasticity"] = data["% Change in Demand"] / data["% Change in Price"]
 print(data)
+
+
+ Demand  Price  % Change in Demand  % Change in Price  Price Elasticity
+0      20   2000                 NaN                NaN               NaN
+1      30   1800            0.500000          -0.100000         -5.000000
+2      31   1850            0.033333           0.027778          1.200000
+3      33   1700            0.064516          -0.081081         -0.795699
+4      30   1800           -0.090909           0.058824         -1.545455
+5      33   1700            0.100000          -0.055556         -1.800000
+6      35   1600            0.060606          -0.058824         -1.030303
