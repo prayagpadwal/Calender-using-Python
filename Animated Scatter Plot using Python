@@ -1,3 +1,14 @@
 import plotly.express as px
 data = px.data.gapminder()
 print(data.head())
+
+
+# OUTPUT #
+ country continent  year  ...   gdpPercap  iso_alpha  iso_num
+0  Afghanistan      Asia  1952  ...  779.445314        AFG        4
+1  Afghanistan      Asia  1957  ...  820.853030        AFG        4
+2  Afghanistan      Asia  1962  ...  853.100710        AFG        4
+3  Afghanistan      Asia  1967  ...  836.197138        AFG        4
+4  Afghanistan      Asia  1972  ...  739.981106        AFG        4
+
+[5 rows x 8 columns]
