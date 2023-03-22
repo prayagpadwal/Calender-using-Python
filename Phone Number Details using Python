@@ -1,7 +1,7 @@
 
 pip install phonenumbers
 
-mport phonenumbers as ph
+import phonenumbers as ph
 from phonenumbers import carrier
 from phonenumbers import geocoder
 from phonenumbers import timezone
